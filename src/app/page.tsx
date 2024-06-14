@@ -1,7 +1,7 @@
 "use client"
 import React from "react"
 import { Header } from "../components/Header/header"
-import { CardSection } from "../components/CardSection/Card"
+import { CardSection } from "../components/CardSection/card"
 
 export default function Home() {
   

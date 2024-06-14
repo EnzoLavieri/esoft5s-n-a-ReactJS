@@ -1,0 +1,35 @@
+.section {
+  color: black;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section h2,
+.section h3 {
+  margin-bottom: 8px;
+}
+
+
+.section p {
+  margin-bottom: 16px;
+}
+
+.section ul li {
+  list-style-position: inside;
+}
+
+.section nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #343a40;
+    padding: 10px;
+    margin-bottom: 20px;
+  }

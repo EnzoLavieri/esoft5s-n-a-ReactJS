@@ -34,9 +34,3 @@ export default function SearchBar() {
         </CardSection>
   )
 }
-
-export async function getImage(search: any) {
-    const data = await fetch(`https://pokeapi.co/api/v2/pokemon/${search}`)
-    const jsonData = await data.json()
-    return jsonData.sprites.front_default
-}

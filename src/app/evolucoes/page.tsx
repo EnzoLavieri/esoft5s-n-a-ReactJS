@@ -25,9 +25,7 @@ export default function SearchBar() {
         setLoading(false)
       })
   }, [])
-    
-    console.log(data)
-    
+
     return (
         <CardSection h2={`${search}`} >
             <img src={data?.sprites.front_default}></img>
